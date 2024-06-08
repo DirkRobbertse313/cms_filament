@@ -21,5 +21,6 @@ class DatabaseSeeder extends Seeder
             
         ]);
         $this->call(CustomersTableSeeder::class);
+        $this->call(SuppliersTableSeeder::class);
     }
 }
